@@ -11,8 +11,18 @@ config_version=5
 [application]
 
 config/name="Little Witch"
+run/main_scene="uid://docqc3lgrsdgp"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1871
+window/size/viewport_height=1064
+
+[global_group]
+
+player=""
 
 [physics]
 
