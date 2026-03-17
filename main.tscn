@@ -6,8 +6,7 @@
 [node name="Node2D" type="Node2D" unique_id=999581118]
 
 [node name="CharacterBody2D" parent="." unique_id=589483484 instance=ExtResource("1_ig7tw")]
-position = Vector2(170, 36)
+position = Vector2(789, 498)
 
 [node name="Enemy" parent="." unique_id=1732753308 instance=ExtResource("2_0xm2m")]
-position = Vector2(810, 184)
-speed = 1000.0
+position = Vector2(1324, 526)

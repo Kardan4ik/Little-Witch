@@ -3,16 +3,19 @@
 [ext_resource type="Script" uid="uid://b8g773l106jyn" path="res://character_body_2d.gd" id="1_ij6vw"]
 [ext_resource type="Texture2D" uid="uid://bqi2i0mgrqk8b" path="res://chara_card_v2.png" id="2_ij6vw"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_44cfe"]
-size = Vector2(400, 600)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ij6vw"]
+radius = 213.0
+height = 656.0
 
 [node name="player" type="CharacterBody2D" unique_id=589483484 groups=["player"]]
 script = ExtResource("1_ij6vw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1094918299]
-position = Vector2(200, 300)
-shape = SubResource("RectangleShape2D_44cfe")
+shape = SubResource("CapsuleShape2D_ij6vw")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1449805296]
-position = Vector2(200, 300)
 texture = ExtResource("2_ij6vw")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=75471806]
+position_smoothing_enabled = true
+position_smoothing_speed = 100.0
