@@ -13,7 +13,7 @@ config_version=5
 config/name="Little Witch"
 run/main_scene="uid://docqc3lgrsdgp"
 config/features=PackedStringArray("4.6", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://enemy/icon.svg"
 
 [display]
 

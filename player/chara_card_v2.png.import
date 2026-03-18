@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://conxnehjfhd5s"
-path="res://.godot/imported/CWmJLvtl4s03HC5E-ApCEcKDvYTMeq-KuPNHVuZZwpiCYEyfQCDT8YxQQ2bdHsYf2VbJe84NfS2WQ-WVLwq411Be.jpg-898be186095c987482503edefc41a1a7.ctex"
+uid="uid://bqi2i0mgrqk8b"
+path="res://.godot/imported/chara_card_v2.png-a1d85913f0d25d735b28cf06cc89bb0f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://CWmJLvtl4s03HC5E-ApCEcKDvYTMeq-KuPNHVuZZwpiCYEyfQCDT8YxQQ2bdHsYf2VbJe84NfS2WQ-WVLwq411Be.jpg"
-dest_files=["res://.godot/imported/CWmJLvtl4s03HC5E-ApCEcKDvYTMeq-KuPNHVuZZwpiCYEyfQCDT8YxQQ2bdHsYf2VbJe84NfS2WQ-WVLwq411Be.jpg-898be186095c987482503edefc41a1a7.ctex"]
+source_file="res://player/chara_card_v2.png"
+dest_files=["res://.godot/imported/chara_card_v2.png-a1d85913f0d25d735b28cf06cc89bb0f.ctex"]
 
 [params]
 
