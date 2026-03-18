@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqi2i0mgrqk8b"
-path="res://.godot/imported/chara_card_v2.png-ea2552d912bdd321354006b368f16de5.ctex"
+uid="uid://conxnehjfhd5s"
+path="res://.godot/imported/CWmJLvtl4s03HC5E-ApCEcKDvYTMeq-KuPNHVuZZwpiCYEyfQCDT8YxQQ2bdHsYf2VbJe84NfS2WQ-WVLwq411Be.jpg-9e0050a808e4b04b8a4e8da828b70e61.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://chara_card_v2.png"
-dest_files=["res://.godot/imported/chara_card_v2.png-ea2552d912bdd321354006b368f16de5.ctex"]
+source_file="res://enemy/CWmJLvtl4s03HC5E-ApCEcKDvYTMeq-KuPNHVuZZwpiCYEyfQCDT8YxQQ2bdHsYf2VbJe84NfS2WQ-WVLwq411Be.jpg"
+dest_files=["res://.godot/imported/CWmJLvtl4s03HC5E-ApCEcKDvYTMeq-KuPNHVuZZwpiCYEyfQCDT8YxQQ2bdHsYf2VbJe84NfS2WQ-WVLwq411Be.jpg-9e0050a808e4b04b8a4e8da828b70e61.ctex"]
 
 [params]
 
