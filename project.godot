@@ -13,12 +13,10 @@ config_version=5
 config/name="Little Witch"
 run/main_scene="uid://docqc3lgrsdgp"
 config/features=PackedStringArray("4.6", "GL Compatibility")
-config/icon="res://enemy/icon.svg"
 
 [display]
 
-window/size/viewport_width=1871
-window/size/viewport_height=1064
+window/size/mode=2
 
 [global_group]
 
@@ -30,6 +28,7 @@ player=""
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=3
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"

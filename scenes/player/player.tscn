@@ -1,22 +1,24 @@
 [gd_scene format=3 uid="uid://d2jkhuq721w44"]
 
-[ext_resource type="Script" uid="uid://b8g773l106jyn" path="res://player/player.gd" id="1_ij6vw"]
-[ext_resource type="Texture2D" uid="uid://bqi2i0mgrqk8b" path="res://player/chara_card_v2.png" id="2_ij6vw"]
+[ext_resource type="Script" uid="uid://b8g773l106jyn" path="res://scripts/player/player.gd" id="1_ij6vw"]
+[ext_resource type="Texture2D" uid="uid://cu5vgdvwjo6ya" path="res://assets/player/Witch.png" id="2_dovo2"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_rkbax"]
-radius = 161.00311
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_gmlin"]
+height = 56.0
 
 [node name="player" type="CharacterBody2D" unique_id=589483484 groups=["player"]]
 collision_mask = 2
 script = ExtResource("1_ij6vw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1094918299]
-shape = SubResource("CircleShape2D_rkbax")
+position = Vector2(2, 2)
+shape = SubResource("CapsuleShape2D_gmlin")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1449805296]
 position = Vector2(2, -1.9999962)
-scale = Vector2(0.7975, 0.8233333)
-texture = ExtResource("2_ij6vw")
+texture = ExtResource("2_dovo2")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=75471806]
+zoom = Vector2(2, 2)
 position_smoothing_enabled = true
+rotation_smoothing_enabled = true

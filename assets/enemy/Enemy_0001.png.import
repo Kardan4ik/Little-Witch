@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqi2i0mgrqk8b"
-path="res://.godot/imported/chara_card_v2.png-a1d85913f0d25d735b28cf06cc89bb0f.ctex"
+uid="uid://vm5m2vasi4o8"
+path="res://.godot/imported/Enemy_0001.png-ebe9c484117ea13529407be44a0738f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://player/chara_card_v2.png"
-dest_files=["res://.godot/imported/chara_card_v2.png-a1d85913f0d25d735b28cf06cc89bb0f.ctex"]
+source_file="res://assets/enemy/Enemy_0001.png"
+dest_files=["res://.godot/imported/Enemy_0001.png-ebe9c484117ea13529407be44a0738f1.ctex"]
 
 [params]
 
