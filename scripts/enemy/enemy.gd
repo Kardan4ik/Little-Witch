@@ -1,16 +1,24 @@
 extends CharacterBody2D
 
-@export var speed = 50.0
-var player = null
+@export var speed: float = 50.0
 
-func _ready():
-	# Ищем игрока в группе "player"
-	player = get_tree().get_first_node_in_group("player")
+@onready var player = get_tree().get_first_node_in_group("player")
 
-func _physics_process(_delta):
-	if player:
+func _physics_process(_delta: float) -> void:
+	if position > player.global_position:
+		$Sprite2D.flip_h = true
+	else:
+		$Sprite2D.flip_h = false
+	
+	var direction = position.direction_to(player.global_position).normalized()
+	velocity = direction * speed
+	move_and_slide()
+	
+	#if player:
+		#if position.distance_to(player.position): 
+		#position += (player.position - position)/speed
 		# Поворачиваемся к игроку
-		look_at(player.position)
+		#look_at(player.position)
 		# Двигаемся вперёд
-		velocity = transform.x * speed
-		move_and_slide()
+		#velocity = transform.x * speed
+		#move_and_slide()
