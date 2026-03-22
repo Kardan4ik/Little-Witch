@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://cu5vgdvwjo6ya" path="res://assets/player/Witch.png" id="2_dovo2"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_dovo2"]
-height = 44.0
+height = 40.0
 
 [node name="player" type="CharacterBody2D" unique_id=589483484 groups=["player"]]
 collision_layer = 3
@@ -13,7 +13,7 @@ motion_mode = 1
 script = ExtResource("1_ij6vw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1094918299]
-position = Vector2(2, 0)
+position = Vector2(2, 4)
 shape = SubResource("CapsuleShape2D_dovo2")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1449805296]
