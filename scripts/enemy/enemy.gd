@@ -13,12 +13,3 @@ func _physics_process(_delta: float) -> void:
 	var direction = position.direction_to(player.global_position).normalized()
 	velocity = direction * speed
 	move_and_slide()
-	
-	#if player:
-		#if position.distance_to(player.position): 
-		#position += (player.position - position)/speed
-		# Поворачиваемся к игроку
-		#look_at(player.position)
-		# Двигаемся вперёд
-		#velocity = transform.x * speed
-		#move_and_slide()
