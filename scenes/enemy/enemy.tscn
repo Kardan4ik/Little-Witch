@@ -4,16 +4,17 @@
 [ext_resource type="Texture2D" uid="uid://vm5m2vasi4o8" path="res://assets/enemy/Enemy_0001.png" id="2_a3pup"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_a3pup"]
-height = 62.0
+height = 48.0
 
 [node name="Enemy" type="CharacterBody2D" unique_id=1732753308]
 collision_layer = 0
-collision_mask = 3
+collision_mask = 2
 collision_priority = 0.5
+motion_mode = 1
 script = ExtResource("1_4gyqm")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1417483633]
-position = Vector2(0, 2)
+position = Vector2(-1, 9)
 shape = SubResource("CapsuleShape2D_a3pup")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1188056400]
